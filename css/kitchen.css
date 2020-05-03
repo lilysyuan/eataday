@@ -251,7 +251,10 @@ form.theform{
     height: 40px;
 
     position: absolute;
-    margin-left: 150px;
+}
+#footer .message li{
+    width: 120px;
+    margin: 0 auto;
 }
 #footer input.alt:hover{
     cursor: pointer;

@@ -145,9 +145,6 @@ button.hamburger{
 }
 
 @media screen and (max-width: 500px){
-  .container{
-    width: 375px;
-  }
   .container .img{
     margin: 18px auto 0 auto;
     width:375px;
@@ -246,13 +243,31 @@ button.hamburger{
     display: block;
   }
 }
-@media screen and (max-width: 493px){
+@media screen and (max-width: 500px){
   #wholebooking h3{
     min-width: inherit;
-    font-size: 36px;
+    font-size: 28px;
     margin: 15px auto;
     width: 100%;
     text-align: center;
+    line-height: 45px;
+  }
+  .content{
+    width: 80%;
+    margin: 20px auto;
+  }
+  .content h2{
+    font-size: 32px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+  }
+  .container input, .container select{
+    width: 170px;
+    margin: 0 auto;
+  }
+  .container span{
+    font-size: 18px;
   }
 }
 
@@ -333,7 +348,7 @@ button.hamburger{
   }
 }
 
-@media screen and (max-width: 580px){
+@media screen and (max-width: 480px){
   .outbox{
     column-count:1;
     margin: 0 10px;
