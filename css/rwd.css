@@ -179,7 +179,6 @@ button.hamburger{
   }
   .slider_container_wrapper_coffee, .slider_container_wrapper_bagel,
   .slider_container_wrapper_pizza, .slider_container_wrapper_salad{
-    max-width: 400px;
     margin: 0 auto;
   }
   #menu h2{
