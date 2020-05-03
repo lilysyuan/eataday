@@ -387,7 +387,6 @@ button.hamburger{
   ul.location, div.contact{
     width: 400px;
   }
-
 @media screen and (max-width: 500px){
   ul.location, div.contact{
     width: 350px;
