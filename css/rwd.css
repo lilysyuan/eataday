@@ -1,0 +1,408 @@
+/*hamburger icon*/
+body{
+  margin: 0;
+}
+@media screen and (min-width: 768px){
+  #nav.nav_list{
+    display: block !important;
+  }
+}
+@media screen and (max-width: 767px){
+  #nav.nav_list{
+    display: none;
+  }
+}
+
+#nav.nav_list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.nav_list > li{
+  display: inline-block;
+}
+/* 行動版時，調整列表樣式 */
+@media screen and (max-width: 880px){
+  ul.nav_list > li{
+    display: block;
+  }
+  #three-column{
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+button.hamburger{
+  display: none;
+  width: 70px;
+  height: 70px;
+  padding: 0;
+} 
+/* 行動版時，將按鈕顯示出來 */
+@media screen and (max-width: 880px){
+  button.hamburger{
+    display: inline-block;
+  }
+
+  #banner h4{
+    font-size: 30px;
+    line-height: 50px;
+    width: 80%;
+  }
+}
+
+
+/*homepage*/
+/*Kitchen*/
+@media screen and (max-width: 990px){
+  #article{
+    display: block;
+    width: 700px;
+    margin: 0 auto;
+  }
+  .content p{
+    font-size: 26px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 50px;
+  }
+  .container .img img{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .content h2{
+    text-align: center;
+    font-size: 40px;
+    width: 400px;
+    margin: 10px auto;
+  }
+  .content .button{
+    width: 300px;
+    margin: 10px 150px;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 715px){
+  #article{
+    display: block;
+    width: 600px;
+    margin: 0 10px;
+  }
+  .content p{
+    font-size: 24px;
+    width: 500px;
+    margin: 0px 50px;
+    padding: 20px;
+    line-height: 50px;
+  }
+  .container .img img{
+    width: 90%;
+    margin: 30px;
+  }
+  .content h2{
+    text-align: center;
+    font-size: 40px;
+    width: 400px;
+    margin: 10px auto;
+  }
+  .content .button{
+    width: 300px;
+    margin: 30px 150px;
+    font-size: 14px;
+    text-align: center;
+
+  }
+}
+
+
+@media screen and (max-width: 670px){
+  #article{
+    display: block;
+    width: 500px;
+    margin: 0 10px;
+  }
+  .container .img img{
+    margin: 50px;
+    width: 80%;
+
+  }
+  .content p{
+    font-size: 20px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px 0px;
+    line-height: 50px;
+  }
+  .content .button{
+    width: 280px;
+    margin: 10px auto;
+    font-size: 14px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .container{
+    width: 375px;
+  }
+  .container .img{
+    margin: 18px auto 0 auto;
+    width:375px;
+  }
+  .content p{
+    font-size: 18px;
+    width: 80%;
+    margin: 0 50px;
+    padding: 15px 0px;
+    line-height: 40px;
+  }
+  .content .button{
+    width: 50%;
+    margin: 10px 110px;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+/*menu*/
+@media (min-width:955px) and (max-width: 2000px){
+  .slider_container .slidercontainer .info2{
+    display: none;
+  }
+}
+@media screen and (max-width: 954px){
+  .price_coffee, .price_salad, .price_bagel, .price_pizza{
+    display: none;
+  }
+  .slider_container_wrapper_coffee, .slider_container_wrapper_bagel,
+  .slider_container_wrapper_pizza, .slider_container_wrapper_salad{
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  #menu h2{
+    text-align: center;
+  }
+  .slider_container .slidercontainer .info{
+    display: none;
+  }
+}
+
+
+
+
+/*DIY kitchen*/
+@media screen and (max-width: 1000px){
+  #coffee h2{
+    width: 70%;
+    margin: 0 auto;
+  }
+  #pizza h2, #bagel h2{
+    width: 70%;
+    margin: -40px auto;
+    padding: 50px;
+  }
+  #coffee, #pizza, #bagel{
+   display: block;
+  }
+  .flip{
+    margin: 40px auto;
+  }
+}
+
+
+/*wholebooking*/
+@media screen and (max-width: 1110px){
+  #wholebooking h3{
+    width: 700px;
+    margin:  15px 50px;
+  }
+  .note{
+    width: 85%;
+  }
+  .container{
+    display: block;
+  }
+.content{
+   width: 85%;
+   margin: 20px auto;
+ }
+ .resev_item{
+   width: 60%;
+   margin: 30px auto;
+ }
+  #three-column #tbox1,
+  #three-column #tbox2,
+  #three-column #tbox3{
+    width:100%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 853px) and (max-width:953px){
+  .container{
+    display: block;
+  }
+}
+@media screen and (max-width: 493px){
+  #wholebooking h3{
+    min-width: inherit;
+    font-size: 36px;
+    margin: 15px auto;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/*kol*/
+@media screen and (max-width: 1187px){
+  .outbox{
+    column-count:3;
+    width: 900px;
+    margin: 0 auto;
+  }
+  .content_box{
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1120px){
+  .outbox{
+    column-count:2;
+    margin: 0 50px;
+  }
+  .content_box{
+    width: 450px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 1000px){
+  .outbox{
+    column-count:2;
+    margin: 0 70px;
+  }
+  .content_box{
+    width: 380px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 900px){
+  .outbox{
+    column-count:1;
+    margin: 0px 100px;
+  }
+  .content_box{
+    width: 650px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 780px){
+  .outbox{
+    column-count:1;
+    margin: 0px 100px;
+  }
+  .content_box{
+    width: 600px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 730px){
+  .outbox{
+    column-count:1;
+    margin: 0 80px;
+  }
+  .content_box{
+    width: 550px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .outbox{
+    column-count:1;
+    margin: 0 50px;
+  }
+  .content_box{
+    width: 520px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 580px){
+  .outbox{
+    column-count:1;
+    margin: 0 10px;
+  }
+  .content_box{
+    width: 450px;
+    margin-top: 20px;
+  }
+}
+
+
+/*FAQ*/
+
+@media screen and (max-width: 1040px){
+  .faqcontent{
+    width: 80%;
+    margin: 0 auto;
+  }
+ .qa p{
+   font-size: 20px;
+ }
+ .qa span{
+   font-size: 18px;
+ }
+}
+
+
+
+
+
+/*footer*/
+@media screen and (max-width: 880px){
+  #footer .footer-pic,#footer{
+    width:100%;
+    margin: 0 auto;
+  }
+  #footer .info{
+    display: block;
+  }
+  ul.location, div.contact{
+    width: 600px;
+    margin: 0 40px;
+  }
+}
+@media (min-width: 550px) and (max-width: 879px){
+  ul.location, div.contact{
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 549px){
+  ul.location, div.contact{
+    width: 400px;
+  }
+
+@media screen and (max-width: 500px){
+  ul.location, div.contact{
+    width: 350px;
+  }
+  .message li{
+    width: 120px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 395px){
+  ul.location, div.contact{
+    width: 300px;
+  }
+  #footer input.alt{
+    margin: 0;
+  }
+}

@@ -1,0 +1,268 @@
+@import url(./reset.css);
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 80px;
+    font-family: 'Noto Sans TC', sans-serif;
+    overflow-x: hidden;
+}
+
+/*header*/
+#header .logo img{
+    width: 170px;
+    float: left;
+    height: 140px;
+}
+
+#header , #nav{
+    background: rgba(229, 71, 75, 0.75) ;
+    color: #2c2a2c; 
+    cursor: default;
+    height: 80px;
+    left: 0;
+    line-height: 80px;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 100%;   
+    z-index: 100000; 
+}
+#header .logo{
+    display: inline-block;
+    height: inherit;
+    left: 30px;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    color: #2c2a2c;
+    font-size: 30px;
+    text-transform: none;
+    font-weight: normal;
+    padding: 0;
+    z-index: 1000000000;
+}
+#header #nav a {
+    padding: 0px 20px;
+     color: #dee6e8;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#header #nav a:hover{
+    color:#2c2a2c ;
+}
+
+span.kitchen{
+    color: #2c2a2c;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*kitchen*/
+#coffee, #pizza{
+    background-color: rgb(250, 250, 226) ;
+    display: flex;
+    justify-content: space-around;
+}
+#bagel{
+    background-color:rgb(252, 224, 204) ;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#coffee h2, #pizza h2{
+    text-align: center;
+    color: #2c2a2c;
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 120px;
+}
+#bagel h2{
+    text-align: center;
+    color: #2c2a2c;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 130px;
+}
+
+.flip{
+    /*border: 1px solid blue;*/
+    width: 220px;
+    height: 300px;
+    margin: 40px 0;
+    border-radius: 10px;
+}
+
+.sop{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    transform-style: preserve-3d;
+    transform-origin: center center;
+    transition: transform 1s;
+
+    box-shadow: #666 1px 1px 3px;
+    border-radius: 10px;
+}
+
+.sop:hover {
+    transform: rotateY(180deg);
+    
+}
+
+div .front, div .back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+div .front{
+    border: #fefefe double;
+    background-color: #FFE66F;
+    border-radius: 10px;
+}
+div .img img{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.sop .back{
+    border: #fefefe double;
+    background-color: #F67C78;
+    border-radius: 10px;
+    text-align: center;
+    transform: rotateY(-180deg);
+}
+
+div.front .txt{
+    /*border: 1px solid red;*/
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    word-wrap:break-word;
+}
+
+.txt p{
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+div .sop .back p{
+    /*border: 1px solid black;*/
+    text-align: left;
+    padding: 50px 30px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-wrap:break-word;
+    font-size: 18px;
+}
+
+
+
+
+
+/*footer*/
+#footer .footer-pic {
+    background: transparent url("../image/main/footer/footer.\ 8F1D21.png") repeat-x scroll center center;
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    z-index: 2;
+ }
+#footer {
+    background-color: #8f1d21;
+    color: #dee6e8;
+    height: 100%;
+   
+    z-index: 1;
+}
+ul.location, div.contact{
+    margin: 0px 20px ;
+    letter-spacing: 4px;
+}
+#footer .info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /*background-color: #8f1d21; */
+}
+
+h1.title1, h1.title2{
+    font-size: 20px;
+}
+
+
+#footer .time,#footer .address,
+#footer .tel,#footer .map{
+    margin: 10px 10px 10px 0px;
+}
+#footer .map{
+   margin-left: -10px;
+}
+#footer .map img{
+    width: 280px;
+    height: 280px;
+}
+
+form.theform{
+    height: 300px;
+}
+
+#footer .name,#footer .email,
+#footer .message,#footer .message{
+    margin: 30px 30px 30px 0px;
+}
+#footer input#name,
+#footer input#email,
+#footer textarea#sthtosay{
+    padding:1px 0px 1px 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    background-color: #dee6e8;;
+    color:#9c847c;
+    width:100%;
+    height: 40px;
+
+    position: relative;
+}
+#footer textarea#sthtosay{
+    font-size: 16px;
+    padding:1px 0px 60px 8px;  
+    resize: none;
+}
+#footer input.alt{
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    background-color: #dee6e8;;
+    color:#9c847c;
+    width:120px;
+    height: 40px;
+
+    position: absolute;
+    margin-left: 150px;
+}
+#footer input.alt:hover{
+    cursor: pointer;
+
+}
+#footer p.copyright{
+    background-color:rgba(233, 231, 231, 0.5) ;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+

@@ -1,0 +1,358 @@
+@import url(./reset.css);
+
+*{
+    box-sizing: border-box;
+    /* background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;  */
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/*header*/
+#header .logo img{
+    float: left;
+    width: 170px;
+    height: 140px;
+}
+
+#header , #nav{
+    background: rgba(229, 71, 75, 0.75) ;
+    color: #2c2a2c; 
+    cursor: default;
+    height: 80px;
+    left: 0;
+    line-height: 80px;
+    position: fixed;
+    text-align: right;
+    width: 100%;   
+    z-index: 100000; 
+}
+
+
+#header .logo{
+    display: inline-block;
+    height: inherit;
+    left: 30px;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    color: #2c2a2c;
+    font-size: 30px;
+    text-transform: none;
+    font-weight: normal;
+    padding: 0;
+    z-index: 1000000000;
+}
+
+#header #nav a {
+    padding: 0px 20px;
+    color: #dee6e8;
+    text-decoration: none;
+    font-size: 20px;
+}
+#header #nav a:hover{
+    color:#2c2a2c ;
+}
+span.home{
+    color: #2c2a2c;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+/*banner*/
+#banner {
+    color: #dee6e8;
+    padding: 200px 0 180px 0;
+    background-image: url("../image/main/banner/smoked\ salmon\ salad-50418223.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#banner h4 {
+    /* border: 1px solid red; */
+    width: 600px;
+    font-size: 44px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 55px;
+    line-height: 70px;
+}
+#banner .button.alt {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px #fff;
+    color: #dee6e8;
+    padding: 10px 25px;
+    margin-left: 70px;
+    margin-top: 30px;
+    float: left;
+}
+
+#banner .button.alt:hover{
+    background-color: #dee6e8;
+    color:#2c2a2c ;
+}
+
+
+/*main*/
+/*DIYkitchen*/
+.DIYkitchen{
+   /* border: 2px solid blue; */
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgoldenrodyellow; 
+    margin: auto;
+}
+#article{
+   /* border: 1px solid black; */
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   margin: 50px auto;
+   border-radius: 15px;
+   width: 1000px;
+}
+.container .img img{
+    /* border:2px solid blue; */
+    width: 95%;
+    border-radius: 15px;
+    margin: 18px;
+    box-shadow: #666 0 0 5px;
+}
+
+
+.content h2{
+    /* border: 1px solid orange; */
+    font-size: 50px;
+    font-weight: bold;
+    color: #8f1d21;
+    margin-top: -30px;
+    margin-left: 90px;
+}
+.content p{
+    /* border: 1px solid orangered; */
+    padding: 50px 70px 40px 70px;
+    font-size: 24px;
+    line-height: 40px;
+}
+.content .button{
+    /* border: 1px solid crimson; */
+    margin: 30px 80px;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+
+
+/*wholebooking*/
+#wholebooking{
+    /*border: 2px solid black;*/
+    padding: 50px 0px 50px 0px;
+    width: 100%;
+}
+
+#three-column{
+   /* border: 1px solid black; */
+    overflow: hidden;
+    text-align: center;
+    color: #dee6e8;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#three-column h2{
+    margin: 16px 0px 50px 0px;
+    font-size: 24px;
+    font-weight: 700;
+}
+    
+#three-column #tbox1,
+#three-column #tbox2,
+#three-column #tbox3{
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    padding: 60px 40px 50px 40px;
+    box-shadow: #666 0 0 5px;
+}
+#wholebooking h3{
+    color: #8f1d21;
+    font-size: 48px;
+    font-weight: 700;
+    margin: -25px 0 50px 420px;
+
+    position: absolute;
+    min-width: 500px;
+}
+
+#three-column p{
+    margin-top: 0px;
+    line-height: 180%;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-left: 30px;
+    text-align: left;
+    color:#2c2a2c;
+}
+.button{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 13px 32px;
+    background: #E85D4B;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #dee6e8;
+}
+
+
+.button:hover{
+    color:#2c2a2c ; 
+}
+#three-column #tbox1{
+    background: #F67C78;
+}
+
+#three-column #tbox1 .button{
+    background: #E85D4B;
+}
+
+#three-column #tbox2{
+    background: #79C4CA;
+}
+
+#three-column #tbox2 .button{
+    background: #57AEAD;
+}
+
+#three-column #tbox3{
+    background: #A8C269;
+    
+}
+
+#three-column #tbox3 .button{
+    background: #809944;
+}
+
+#three-column .title{
+    text-align: center;
+}
+
+#three-column .title h2{
+    font-size: 30px;
+    color: #dee6e8;
+}
+
+    
+
+
+/*footer*/
+#footer .footer-pic {
+    background: transparent url("../image/main/footer/footer.\ 8F1D21.png") repeat-x scroll center center;
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    z-index: 2;
+ }
+#footer {
+    background-color: #8f1d21;
+    color: #dee6e8;
+    height: 100%;
+   
+    z-index: 1;
+}
+ul.location, div.contact{
+    margin: 0px 20px;
+    letter-spacing: 4px;
+}
+#footer .info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /*background-color: #8f1d21; */
+}
+
+h1.title1, h1.title2{
+    font-size: 20px;
+}
+
+
+#footer .time,#footer .address,
+#footer .tel,#footer .map{
+    margin: 10px 10px 10px 0px;
+}
+#footer .map{
+   margin-left: -10px;
+}
+#footer .map img{
+    width: 280px;
+    height: 280px;
+}
+
+form.theform{
+    height: 300px;
+}
+
+#footer .name,#footer .email,
+#footer .message,#footer .message{
+    margin: 30px 30px 30px 0px;
+}
+#footer input#name,
+#footer input#email,
+#footer textarea#sthtosay{
+    padding:1px 0px 1px 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    background-color: #dee6e8;;
+    color:#9c847c;
+    width:100%;
+    height: 40px;
+
+    position: relative;
+}
+#footer textarea#sthtosay{
+    font-size: 16px;
+    padding:1px 0px 60px 8px;  
+    resize: none;
+}
+#footer input.alt{
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    background-color: #dee6e8;;
+    color:#9c847c;
+    width:120px;
+    height: 40px;
+
+    position: absolute;
+}
+#footer .message li{
+    width: 120px;
+    margin: 0 auto;
+}
+#footer input.alt:hover{
+    cursor: pointer;
+
+}
+#footer p.copyright{
+    background-color:rgba(233, 231, 231, 0.5) ;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
