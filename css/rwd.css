@@ -171,6 +171,7 @@ button.hamburger{
 @media (min-width:955px) and (max-width: 2000px){
   .slider_container .slidercontainer .info2{
     display: none;
+    text-align: center;
   }
 }
 @media screen and (max-width: 954px){
@@ -180,6 +181,7 @@ button.hamburger{
   .slider_container_wrapper_coffee, .slider_container_wrapper_bagel,
   .slider_container_wrapper_pizza, .slider_container_wrapper_salad{
     margin: 0 auto;
+    min-width: 300px;
   }
   #menu h2{
     text-align: center;

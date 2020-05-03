@@ -201,7 +201,7 @@ div .bagelmenu {
 .slider_container_wrapper_coffee, .slider_container_wrapper_bagel {
     background-color: whitesmoke ;
     width: 100%;
-    min-width: 400px;
+    width: 400px;
     box-sizing: border-box;
     box-shadow: #666 0 0 5px;
     padding: 20px;
