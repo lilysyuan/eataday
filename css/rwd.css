@@ -375,6 +375,13 @@ button.hamburger{
  }
 }
 
+@media screen and (max-width: 400px){
+  .wrapper h2{
+    
+    margin: 0 auto -90px auto;
+  }
+}
+
 
 
 
