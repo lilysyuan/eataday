@@ -282,11 +282,9 @@ button.hamburger{
 @media screen and (max-width: 1187px){
   .outbox{
     column-count:3;
-    width: 900px;
     margin: 0 auto;
   }
   .content_box{
-    width: 300px;
     margin: 0 auto;
   }
 }
@@ -297,7 +295,6 @@ button.hamburger{
     margin: 0 50px;
   }
   .content_box{
-    width: 450px;
     margin-top: 20px;
   }
 }
@@ -307,7 +304,6 @@ button.hamburger{
     margin: 0 70px;
   }
   .content_box{
-    width: 380px;
     margin-top: 20px;
   }
 }
@@ -317,7 +313,6 @@ button.hamburger{
     margin: 0px 100px;
   }
   .content_box{
-    width: 650px;
     margin-top: 20px;
   }
 }
@@ -328,7 +323,6 @@ button.hamburger{
     margin: 0px 100px;
   }
   .content_box{
-    width: 600px;
     margin-top: 20px;
   }
 }
@@ -339,7 +333,6 @@ button.hamburger{
     margin: 0 80px;
   }
   .content_box{
-    width: 550px;
     margin-top: 20px;
   }
 }
@@ -350,7 +343,6 @@ button.hamburger{
     margin: 0 50px;
   }
   .content_box{
-    width: 520px;
     margin-top: 20px;
   }
 }
@@ -361,8 +353,10 @@ button.hamburger{
     margin: 0 10px;
   }
   .content_box{
-    width: 450px;
     margin-top: 20px;
+  }
+  .post_content{
+    width: 100%;
   }
 }
 
@@ -376,6 +370,7 @@ button.hamburger{
   }
  .qa p{
    font-size: 20px;
+   line-height: 30px;
  }
  .qa span{
    font-size: 18px;

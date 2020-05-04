@@ -2,11 +2,14 @@
 
 *{
     box-sizing: border-box;
-}
+    /* background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important; */
+} 
 
 body {
     font-family: 'Noto Sans TC', sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /*header*/
@@ -65,17 +68,15 @@ span.kol{
 #kol{
     /*border: 2px solid blue;*/
     background-image: url("../image/kol/so-white.png");
-    min-width: 1200px;
 }
 
 .outbox{
     column-count: 3;
-    width: 1100px; 
     margin: 0 auto;
+    padding-top: 100px;
 }
 .content_box{
     background-color: white;
-    width:350px;
 	display: inline-block;
 	border: 1px dotted #4F4F4F;
 	padding: 30px;
