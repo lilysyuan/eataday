@@ -50,6 +50,13 @@ button.hamburger{
     width: 80%;
   }
 }
+@media screen and (max-width: 450px){
+#header .logo img{
+  float: right;
+  width: 110px;
+  height: 90px;
+  }
+}
 
 
 /*homepage*/
@@ -377,7 +384,7 @@ button.hamburger{
 
 @media screen and (max-width: 400px){
   .wrapper h2{
-    
+
     margin: 0 auto -90px auto;
   }
 }
