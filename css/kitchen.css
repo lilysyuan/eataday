@@ -12,9 +12,10 @@ body {
 
 /*header*/
 #header .logo img{
-    width: 170px;
     float: left;
-    height: 140px;
+    width: 150px;
+    height: 120px;
+    margin-top: -36px;
 }
 
 #header , #nav{
@@ -87,6 +88,12 @@ span.kitchen{
     font-size: 36px;
     font-weight: bold;
     padding-top: 130px;
+}
+#kitchen span{
+    color: #2c2a2c;
+    font-size: 10px;
+    float: right;
+    margin: -10px 18px 0 0;
 }
 
 .flip{

@@ -16,8 +16,9 @@ body {
 /*header*/
 #header .logo img{
     float: left;
-    width: 170px;
-    height: 140px;
+    width: 150px;
+    height: 120px;
+    margin-top: -36px;
 }
 
 #header , #nav{
@@ -187,12 +188,11 @@ span.home{
     box-shadow: #666 0 0 5px;
 }
 #wholebooking h3{
+    text-align: center;
     color: #8f1d21;
     font-size: 48px;
     font-weight: 700;
-    margin: -25px 0 50px 420px;
-
-    position: absolute;
+    margin-top: -25px;
     min-width: 500px;
 }
 
